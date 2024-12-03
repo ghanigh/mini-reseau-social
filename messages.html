@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Messagerie</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Messagerie</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="feed.html">Fil d'actualité</a></li>
+          <li><a href="friends.html">Liste d'amis</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="conversations-container">
+      <h2>Mes conversations</h2>
+      <ul id="conversation-list">
+        <!-- Les conversations seront insérées ici dynamiquement avec JavaScript -->
+      </ul>
+    </section>
+
+    <section id="message-details" class="hidden">
+      <h2>Détails de la conversation</h2>
+      <div id="message-history">
+        <!-- Les messages de la conversation seront affichés ici -->
+      </div>
+      <form id="send-message-form">
+        <input type="text" id="new-message" placeholder="Tapez votre message..." required>
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Ghani MANSEUR - Projet mini réseau social -  HTML/CSS/JavaScript  © 2024</p>
+  </footer>
+
+  <script src="js/messages.js"></script>
+</body>
+</html>
