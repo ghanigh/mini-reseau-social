@@ -1,0 +1,21 @@
+[
+    {
+      "id": "1",
+      "username": "JohnDoe",
+      "email": "john.doe@example.com",
+      "friends": ["2", "3"]
+    },
+    {
+      "id": "2",
+      "username": "JaneSmith",
+      "email": "jane.smith@example.com",
+      "friends": ["1"]
+    },
+    {
+      "id": "3",
+      "username": "MikeBrown",
+      "email": "mike.brown@example.com",
+      "friends": ["1"]
+    }
+  ]
+  

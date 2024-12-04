@@ -1,0 +1,15 @@
+[
+    {
+      "userId": "1",
+      "friends": ["2", "3"]
+    },
+    {
+      "userId": "2",
+      "friends": ["1"]
+    },
+    {
+      "userId": "3",
+      "friends": ["1"]
+    }
+  ]
+  

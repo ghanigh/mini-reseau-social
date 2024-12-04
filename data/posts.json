@@ -1,0 +1,26 @@
+[
+    {
+      "postId": "101",
+      "userId": "1",
+      "content": "Hello, world! This is my first post.",
+      "likes": 15,
+      "comments": [
+        {
+          "userId": "2",
+          "content": "Congrats on your first post!"
+        },
+        {
+          "userId": "3",
+          "content": "Looking forward to more updates."
+        }
+      ]
+    },
+    {
+      "postId": "102",
+      "userId": "2",
+      "content": "Loving this new social network!",
+      "likes": 8,
+      "comments": []
+    }
+  ]
+  
